@@ -58,10 +58,10 @@ Előfeltételek:
 
 1. Projekt mappához navigélás
     ```
-	• cd <project_folder>
+	cd <project_folder>
     ```
 	
 2. Konténer buildelése és futtatása
     ```
-	• docker-compose up --build
+	docker-compose up --build
     ```
