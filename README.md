@@ -9,15 +9,15 @@ Előfeltételek:
 
 1. Projekt mappához navigélás
     ```
-	• cd <project_mappa>
+	cd <project_mappa>
 	```
 	
 2. Függőségek telepítése
         ```
-		• pip install --upgrade pip
+   		pip install --upgrade pip
 		```
 		```
-		• pip install -r requirements.txt
+   		pip install -r requirements.txt
         ```
 
 
@@ -38,13 +38,13 @@ DATABASES = {
 
 4. Áttelepítéseket
     ```
-	• python manage.py makemigrations && python manage.py migrate
+	python manage.py makemigrations && python manage.py migrate
     ```
 
 	
 5. Szerver futtatása
     ```
-	• python manage.py runserver <port>
+	python manage.py runserver <port>
     ```
 	
 
